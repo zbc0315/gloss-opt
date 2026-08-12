@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "GLOSS: Global-LOcal-unexplored Sampling Strategy"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Baicheng
+  - family-names: Zhang
+    given-names: Guoqing
+  - family-names: Luo
+    given-names: Yi
+  - family-names: Jiang
+    given-names: Jun
+  - family-names: Zhu
+    given-names: Zhuoying
+repository-code: "https://github.com/zbc0315/gloss-opt"
+license: MIT
+preferred-citation:
+  type: article
+  title: "GLOSS: A Multi-Strategy Sampling Algorithm for Optimization in Vast Chemical Spaces"
+  authors:
+    - family-names: Zhang
+      given-names: Baicheng
+    - family-names: Zhang
+      given-names: Guoqing
+    - family-names: Luo
+      given-names: Yi
+    - family-names: Jiang
+      given-names: Jun
+    - family-names: Zhu
+      given-names: Zhuoying
+  journal: "Journal of Chemical Information and Modeling"
+  year: 2026
+  notes: "Submitted."

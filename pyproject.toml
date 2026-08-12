@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gloss-opt"
+version = "1.0.1"
+description = "GLOSS: Global-LOcal-unexplored Sampling Strategy for surrogate-based optimization in vast chemical spaces"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [
+  { name = "Baicheng Zhang", email = "zbc@mail.ustc.edu.cn" },
+]
+dependencies = [
+  "numpy>=1.21",
+  "scipy>=1.7",
+  "scikit-learn>=1.0",
+]
+
+[project.optional-dependencies]
+surrogates = [
+  "torch>=1.9",
+  "xgboost>=1.5",
+  "lightgbm>=3.3",
+]
+benchmarks = [
+  "pandas>=1.3",
+  "matplotlib>=3.5",
+  "rdkit>=2022.9",
+  "openpyxl>=3.0",
+]
+full = [
+  "torch>=1.9",
+  "xgboost>=1.5",
+  "lightgbm>=3.3",
+  "pandas>=1.3",
+  "matplotlib>=3.5",
+  "rdkit>=2022.9",
+  "openpyxl>=3.0",
+  "pytest>=7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/zbc0315/gloss-opt"
+Repository = "https://github.com/zbc0315/gloss-opt"
+Issues = "https://github.com/zbc0315/gloss-opt/issues"
+
+[tool.setuptools.packages.find]
+include = ["gloss*"]
