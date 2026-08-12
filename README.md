@@ -132,10 +132,6 @@ precomputed stratified QM9 pools for the scaling study can be rebuilt with
 pytest tests/ -v
 ```
 
-## Citing
-
-If you use GLOSS in your work, please cite the paper (see `CITATION.cff`).
-
 ## License
 
 MIT. See `LICENSE`.
